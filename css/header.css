@@ -42,6 +42,14 @@ header .row {
   position: relative;
   font-family: 'Lobster', cursive;
 }
+.brand-b a{
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+  position: relative;
+  font-family: 'Lobster', cursive;
+}
+
 
 .fixed .brand-name a {
   color: #000;

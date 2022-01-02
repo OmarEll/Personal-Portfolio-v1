@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description"
+        content="A clean, beautiful and responsive portfolio template for Developers! using only Html, CSS, and JavaScript">
+    <meta name="author" content="Omar Elloumi">
+    <title>Calculatrice</title>
+    <link href="./css/header.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/home.css" rel="stylesheet" />
+    <link href="./css/about.css" rel="stylesheet" />
+    <link href="./css/service.css" rel="stylesheet" />
+    <link href="./css/portfolio.css" rel="stylesheet" />
+    <link href="./css/testimonials.css" rel="stylesheet" />
+    <link href="./css/testimonials.css" rel="stylesheet" />
+    <link href="./css/blog.css" rel="stylesheet" />
+    <link href="./css/contact.css" rel="stylesheet" />
+    <link href="./css/footer.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="brand-b">
+                    <a href="index.html" class="logo">Retour</a>
+                </div>
+            </div>
+            <div class="hamburger">
+            </div>
+            <div class="navbar">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1>Jeu de Nim</h1>
+                </div>
+                <div class="img">
+                    <img src="img/portfolio/autres/NimC/logo.jpg" alt='me' />
+                </div>
+                <div class="text">
+                    <h6>Description:</h6>
+                    <p>Le but est de placer le pion dans la case en bas à droite. Cela se complique lorsque les 2
+                        joueurs doivent jouer avec le même pion.
+                        <br>
+                        Il faut alors trouver une technique pour gagner, et créer une IA pour affronter le joueur.
+                        <br>
+                        Le projet peut donc se séparer en plusieurs parties au niveau de la programmation :
+                        <br>
+                        -D'une part on devra gérer l'affichage du plateau et du pion sur celui ci
+                        <br>
+                        -D'une autre part on doit trouver et coder la stratégie gagnante
+                        <br>
+                        -Il faut également concevoir l'ordinateur et créer différents niveaux de difficulté.
+                        <br>
+                        -Enfin, il faut proposer a l'utilisateur tous les choix de déplacements qui sont possibles
+                    </p>
+                    <h6>Objectif du projet:</h6>
+                    <p>Mise en application des acquis dans le domaine de l'analyse et de la programmation dans un
+                        travail de groupe</p>
+                    <h6>Compétences visées</h6>
+                    <p>Maîtriser les concepts de l'algorithmique et de la programmation</p>
+                    <div class="skills">
+                        <h6>Langages utilisés:</h6>
+                        <div class="skills-list">
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Langage C</li>
+                            </ul>
+                        </div>
+                        <div class="social">
+
+                            <a target="_blank" href="https://github.com/ChorbaDev/NimProjC"><i
+                                    class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="portfolio" id="Projets">
+        <div class="container">
+            <div class="row">
+                <div class="title text-center">
+                    <h1>Images</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="filter-btn">
+                    <ul id="filterBtn">
+                        <li class="active" data-target="all">Tout</li>
+                        <li data-target="web">Images</li>
+                        <li data-target="ui">Video</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery">
+                    <div class="item" data-id="web">
+                        <div class="inner">
+                            <img src="./img/portfolio/autres/NimC/1.png" alt="portfolio" />
+                            <div class="overlay">
+                                <span class="fa fa-plus"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-id="web">
+                        <p></p>
+                        <div class="inner">
+                            <img src="./img/portfolio/autres/NimC/2.png" alt="portfolio" />
+                            <div class="overlay">
+                                <span class="fa fa-plus"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-id="web">
+                        <p></p>
+                        <div class="inner">
+                            <img src="./img/portfolio/autres/NimC/3.png" alt="portfolio" />
+                            <div class="overlay">
+                                <span class="fa fa-plus"></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-id="ui">
+                        <video width="320" height="240" controls>
+                            <source src="./img/portfolio/autres/NimC/NimC.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-logo">Omar Elloumi</div>
+                <div class="social-link">
+                    <a href="https://www.instagram.com/omar_elloumi_/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://github.com/OmarEll"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/omar-elloumi/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="lightbox hide">
+        <span class="close-lightbox fa fa-close"></span>
+        <img src="" alt="portfolio" />
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
